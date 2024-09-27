@@ -12,6 +12,7 @@ def bubble_sort(data, draw_bars, delay):
 def draw_bars(data, color_array):
     plt.clf()  
     plt.bar(range(len(data)), data, color=color_array)
+    plt.xlabel("O(n^2)")
     plt.title("Bubble Sort Visualization")
 
 def visualize_sorting():
